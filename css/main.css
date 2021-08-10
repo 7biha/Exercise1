@@ -1,0 +1,29 @@
+body{
+    background-image: url(/img/pattern-background-desktop.svg);
+    background-color: #bae0e0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+  display: flex;
+  
+}
+/* 
+.flex > div{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+} */
+.walk_through .item{
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgb(209 209 213) 0px 5px 15px;
+    padding: 10px;
+}
+.img__holder img{
+    width: 100%;
+    flex-wrap: wrap;
+}
